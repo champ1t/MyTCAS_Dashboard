@@ -7,15 +7,15 @@
 
 ## โครงสร้างไฟล์
 scripts/
-│ └── collect_fees.py # โค้ดสำหรับดึงข้อมูลจากเว็บไซต์
+│ └── collect_fees.py # โค้ดสำหรับดึงข้อมูลจากเว็บไซต์ (scrapping)
 │
 ├── data/
-│ └── tcas_results.xlsx # ไฟล์ข้อมูลที่ได้จากการดึงข้อมูล
+│ └── tcas_results.xlsx # ไฟล์ข้อมูลที่ได้จากการดึงข้อมูล (results)
 │
 ├── dashboard/
 │ └── dashboard.py # ไฟล์สำหรับแสดงผลด้วย Streamlit
 │
-└── README.md # ไฟล์นี้
+└── README.md 
 
 
 ---
